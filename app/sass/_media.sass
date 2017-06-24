@@ -1,0 +1,228 @@
+@import "vars"
+
+/* =========== Desktop First ============ */
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px)
+	.header .header-top-line
+		nav ul li
+			margin-left: 25px
+		.search
+			margin-right: 20px
+	.why_me
+		&-flex-container
+			&-item
+				width: 170px
+	.our_products			
+		&-head
+			.h2
+				margin-top: 10px
+	.footer
+		&-wrapper
+			select
+				width: 46.5%
+
+
+@media only screen and (max-width : 1023px)
+	.header .header-top-line nav
+		display: none
+	.header .header-hamburger
+		display: block	
+	.header
+		&-carousel
+			.owl-prev, .owl-next
+				padding: 10px 15px
+			.owl-prev
+				left: 20px
+			.owl-next
+				right: 20px					
+
+/* Medium Devices, Desctops */
+@media only screen and (max-width : 991px)
+	/**/		
+	.header
+		&-top-line
+			.search
+				width: 150%
+				margin-right: 0
+				right: 15%
+		&-carousel
+			&-item
+				.h1
+					font-size: 50px			
+	.why_me
+		&-flex-container
+			&-item
+				height: 200px
+				width: 130px
+				.fa
+					font-size: 40px
+					margin: 20px auto	
+				.h4	
+					font-size: 12px
+				p
+					font-size: 12px
+				.second
+					height: 120px
+	.our_products
+		&-carousel
+			margin-top: 150px	
+			&-item
+				margin-bottom: 30px
+				.img
+					padding-bottom: 30px
+		&-head
+			.h2
+				margin-top: 8px
+	.footer
+		&-wrapper
+			select
+				width: 45%				
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+	.header
+		&-top-line
+			.search
+				width: 180%
+		&-carousel
+			&-item
+				.h1
+					font-size: 30px
+				p
+					font-size: 14px
+			.owl-prev
+				left: 10px
+			.owl-next
+				right: 10px
+	.why_me
+		&-flex-container
+			margin-top: 40px
+			flex-wrap: wrap
+			justify-content: center
+			&-item
+				margin-top: 20px
+				height: 200px
+				width: 170px
+		p
+			width: 80%					
+	.our_products
+		&-carousel
+			margin-top: 130px	
+			.owl-dots
+				padding-top: 30px
+	.about_us
+		&-header
+			.h2
+				text-align: center
+		p
+			width: 100%
+			text-align: center
+		&-details-int
+			width: 80%
+	.about_us .img
+		text-align: center
+		margin-top: 10px
+		img
+			width: 25%
+	.footer
+		&-wrapper		
+			padding: 30px 0 0
+			p
+				padding-bottom: 10px
+				text-align: center
+				&:first-child
+					padding-top: 50px				
+
+
+@media only screen and (max-width : 620px)
+	.footer
+		height: 690px
+		&-wrapper
+			input[type='text']
+				width: 100%
+			select
+				width: 100%
+				margin-bottom: 10px
+			.like
+				span
+					font-size: 10px
+				button
+					padding: 5px 20px
+					font-size: 12px	
+			p
+				font-size: 12px
+		&-c-s
+			height: 80px
+			&-copy
+				width: 100%
+				font-size: 14px
+			&-soc
+				float: none
+				position: absolute
+				top: 30px
+				left: -20px			
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.header
+		&-top-line
+			.search
+				width: 200%
+				&::before
+					left: 50%
+		&-carousel
+			margin-top: 10px
+			&-item
+				.h1
+					font-size: 25px
+				p
+					font-size: 12px
+
+	.our_products
+		&-carousel
+			.owl-dots
+				padding-top: 10px
+						
+
+	.our_products .our_products-carousel .our_products-carousel-item img
+		width: 95px	
+	.about_us .img
+		margin-top: 0
+	.about_us p
+		text-align: left
+	.footer
+		&-wrapper
+			.like
+				span
+					display: none
+		&-c-s
+			&-copy
+				font-size: 12px
+														
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+/* ========== Mobile First ============ */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+/* Medium Devices, Desctops */
+@media only screen and (min-width : 992px)
+	/**/
+@media only screen and (min-width : 1024px)
+	.navbars
+		display: none !important		
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
